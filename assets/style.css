@@ -1,3 +1,23 @@
-body {
- width=960px;
+body{
+   background-image: url(/assets/images/pipes/pipes.png);
+}
+.header{
+    background-color: teal;
+}
+.h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: teal;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-md-8{
+    max-width: 100%;
+}
+footer{
+    background-color: #666;
+    border-top: teal solid 5px;
+    margin-top: 20px;
 }
