@@ -19,5 +19,9 @@ p{
 footer{
     background-color: #666;
     border-top: teal solid 5px;
-    margin-top: 20px;
 }
+@media (min-width: 980px) {
+    .main {
+      width: 60%;
+    }
+  }
