@@ -24,3 +24,6 @@ footer{
 .gray {
     border-bottom: gray solid 4px;
 }
+.maxWidth{
+   max-width: 700px;
+}
