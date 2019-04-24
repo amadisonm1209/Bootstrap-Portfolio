@@ -1,16 +1,17 @@
-body{
-   background-image: url(/assets/images/pipes/pipes.png);
-}
-.header{
+.header, 
+.submit{
     background-color: teal;
 }
-.h1, h2{
+.h1, 
+h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 h2{
     color: teal;
 }
-p{
+p, 
+form{
     font-family: Arial, Helvetica, sans-serif;
 }
 .col-md-8{
@@ -20,8 +21,6 @@ footer{
     background-color: #666;
     border-top: teal solid 5px;
 }
-@media (min-width: 980px) {
-    .main {
-      width: 60%;
-    }
-  }
+.gray {
+    border-bottom: gray solid 4px;
+}
